@@ -1,0 +1,87 @@
+:root{
+    --text-color:#212121;
+    --primary-color:rgb(63, 208, 212);
+    --animation-main:cubic-bezier(.77,0,.175,1);
+    --h-header:80px;
+    --footer-color:#a9a9a9;
+}
+
+
+a {
+    text-decoration: none;
+    color:#333;
+}
+
+@keyframes dropdownItem {
+    from{
+        opacity:0;
+        overflow: hidden;
+    }
+    to{
+        opacity:1;
+        overflow: visible;
+    }
+}
+
+@keyframes openSideBar {
+    from{
+        padding: 0;
+        width:0;
+        right:-468px;
+    }
+    to{
+        /* transform: translateX(100%); */
+        right:0;
+        width: 458px;
+    }
+}
+
+@keyframes fixOverflow {
+    from{
+        overflow-y:hidden ;
+    }
+    to{
+        overflow: visible;
+    }
+}
+
+@keyframes aprear_slide {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes zoomOut {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes zoomIn {
+    from{
+        /* width: 110%; */
+        transform: scale(1);
+    }
+    to{
+        /* width: 100%; */
+        transform: scale(1.1);
+    }
+}
+
+@keyframes uptext {
+    from{
+        transform: translateY(60px);
+        opacity:0;
+    }
+    to{
+        overflow-y: hidden;
+        opacity:1;
+        transform: translateY(0);
+    }
+}
