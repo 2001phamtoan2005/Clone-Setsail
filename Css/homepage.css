@@ -504,7 +504,7 @@ body{
     background-size:cover;
     transform: scale(1.1);
     transform: scale linear 5s;
-    animation: zoomOut   linear 5s;
+    animation: zoomOut linear 5s;
     animation-fill-mode: forwards;
     /* background-attachment: fixed; */
 }
