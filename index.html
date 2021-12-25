@@ -16,15 +16,20 @@
     <link rel="stylesheet" href="Css/grid_layout.css">
     <link rel="stylesheet" href="Css/base.css">
     <link rel="stylesheet" href="Css/homepage.css">
+    <link rel="stylesheet" href="Css/responsive.css">
     <title>Setsail.edu.vn</title>
 </head>
 <body>
     <div class="container">
         <header id="header">
             <nav id="nav">
+                <div class="nav__mobileSearch">
+                    <a href="" class="nav__mobileSearch-icon"><img src="Image/search.svg" alt="" class="tools_link-search"></a>
+                </div>
                 <div class="nav__logo">
                     <a href="" class="nav__logo-link">
                         <img src="Image/logo_gold.png" alt="" class="nav__logo-img">
+                        <img src="Image/logo-white.png" alt="" class="nav__mobilelogo-img">
                     </a>
                 </div>
                 <ul class="nav__navigation">
@@ -148,12 +153,12 @@
                     </li>
                 </ul>
                 <ul class="nav__tools">
-                    <li class="tools_item"><a href="" class="tools_link"><img src="Image/cart.svg" alt="" class="tools_link-cart"></a>
+                    <li class="tools_item hide"><a href="" class="tools_link"><img src="Image/cart.svg" alt="" class="tools_link-cart"></a>
                         <div class="tools_link-cartNone">
                             <span class="tools_link-text">No products in cart.</span>
                         </div>
                     </li>
-                    <li class="tools_item"><a href="" class="tools_link"><img src="Image/search.svg" alt="" class="tools_link-search"></a></li>
+                    <li class="tools_item hide"><a href="" class="tools_link"><img src="Image/search.svg" alt="" class="tools_link-search"></a></li>
                     <li class="tools_item">
                         <label for="openSide_bar" id="label_openSidebar">
                             <img src="Image/menu.svg" alt="" class="tools_link-menu">
@@ -234,7 +239,7 @@
             <div class="sectionChooseSkiing">
                 <div class="grid">
                     <div class="row sectionChooseSkiing__list">
-                        <div class="col l-2-4 sectionChooseSkiing__item">
+                        <div class="col l-2-4 m-4 c-12 sectionChooseSkiing__item">
                             <div class="Skiing">
                                 <div class="Skiing__image-overflow">
                                     <div class="Skiing__image Skiing__image-no1">
@@ -258,7 +263,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 sectionChooseSkiing__item">
+                        <div class="col l-2-4 m-4 c-12 sectionChooseSkiing__item">
                             <div class="Skiing">
                                 <div class="Skiing__image-overflow">
                                     <div class="Skiing__image Skiing__image-no2">
@@ -282,7 +287,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 sectionChooseSkiing__item">
+                        <div class="col l-2-4 m-4 c-12 sectionChooseSkiing__item">
                             <div class="Skiing">
                                 <div class="Skiing__image-overflow">
                                     <div class="Skiing__image Skiing__image-no3">
@@ -306,7 +311,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 sectionChooseSkiing__item">
+                        <div class="col l-2-4 m-4 c-12 sectionChooseSkiing__item">
                             <div class="Skiing">
                                 <div class="Skiing__image-overflow">
                                     <div class="Skiing__image Skiing__image-no4">
@@ -330,7 +335,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 sectionChooseSkiing__item">
+                        <div class="col l-2-4 m-4 c-12 sectionChooseSkiing__item">
                             <div class="Skiing">
                                 <div class="Skiing__image-overflow">
                                     <div class="Skiing__image Skiing__image-no5">
@@ -354,7 +359,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-2-4 sectionChooseSkiing__item">
+                        <div class="col l-2-4 m-4 c-12 sectionChooseSkiing__item">
                             <div class="Skiing">
                                 <div class="Skiing__image-overflow">
                                     <div class="Skiing__image Skiing__image-no6">
@@ -411,7 +416,7 @@
                     </div>
                     <div class="grid reviewers">
                         <div class="reviewers__list row ">
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-doctorstrange.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -430,7 +435,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-ironman.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -449,7 +454,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-captainamericajpeg.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -468,7 +473,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-hulk.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -487,7 +492,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-antman.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -506,7 +511,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-blackpanther.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -525,7 +530,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-blackwidow.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -544,7 +549,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-hulk.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -563,7 +568,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 reviewers__item">
+                            <div class="col l-4 m-6 c-12 reviewers__item">
                                 <div class="characters">
                                     <img src="Image/avengers-hulk.jpeg" alt="" class="characters__img">
                                     <div class="character__info">
@@ -599,9 +604,9 @@
                         <p class="sectionThird__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</p>
                     </div>
                     <div class="sectionThird__attachments">
-                        <div class="attachments">
-                            <div class="attachments__list">
-                                <div class="attachments__item">
+                        <div class="grid attachments">
+                            <div class="row attachments__list">
+                                <div class="col l-3 m-3 c-12 attachments__item">
                                     <div class="attachments__image">
                                         <img src="Image/h1-custom-icon-img-1.png" alt="" class="attachments__img">
                                     </div>
@@ -610,7 +615,7 @@
                                         <p class="attachments__text">Aenean commodo ligula eget dolor. Lorem ipsum</p>
                                     </div>
                                 </div>
-                                <div class="attachments__item">
+                                <div class="col l-3 m-3 c-12 attachments__item">
                                     <div class="attachments__image">
                                         <img src="Image/h1-custom-icon-img-2.png" alt="" class="attachments__img">
                                     </div>
@@ -619,7 +624,7 @@
                                         <p class="attachments__text">Aenean commodo ligula eget dolor. Lorem ipsum</p>
                                     </div>
                                 </div>
-                                <div class="attachments__item">
+                                <div class="col l-3 m-3 c-12 attachments__item">
                                     <div class="attachments__image">
                                         <img src="Image/h1-custom-icon-img-3.png" alt="" class="attachments__img">
                                     </div>
@@ -628,7 +633,7 @@
                                         <p class="attachments__text">Aenean commodo ligula eget dolor. Lorem ipsum</p>
                                     </div>
                                 </div>
-                                <div class="attachments__item">
+                                <div class="col l-3 m-3 c-12 attachments__item">
                                     <div class="attachments__image">
                                         <img src="Image/h1-custom-icon-img-4.png" alt="" class="attachments__img">
                                     </div>
@@ -645,9 +650,9 @@
             </div>
             <div class="sectionFourth">
                 <div class="sectionFourth__wrap">
-                    <div class="climbers">
-                        <div class="climbers__list">
-                            <div class="climbers__item">
+                    <div class="grid climbers">
+                        <div class="row climbers__list">
+                            <div class="col l-3 m-3 c-12 climbers__item">
                                 <div class="climbers__image">
                                     <img src="Image/our-team-img-6-1.jpg" alt="" class="climbers__img">
                                 </div>
@@ -662,7 +667,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="climbers__item">
+                            <div class="col l-3 m-3 c-12 climbers__item">
                                 <div class="climbers__image">
                                     <img src="Image/our-team-img-7-1.jpg" alt="" class="climbers__img">
                                 </div>
@@ -677,7 +682,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="climbers__item">
+                            <div class="col l-3 m-3 c-12 climbers__item">
                                 <div class="climbers__image">
                                     <img src="Image/our-team-img-8-1.jpg" alt="" class="climbers__img">
                                 </div>
@@ -692,7 +697,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="climbers__item">
+                            <div class="col l-3 m-3 c-12 climbers__item">
                                 <div class="climbers__image">
                                     <img src="Image/our-team-img-9.jpg" alt="" class="climbers__img">
                                 </div>
@@ -713,19 +718,19 @@
                         <div class="statistical__wrap">
                             <div class="grid">
                                 <div class="row">
-                                    <div class="col l-3">
+                                    <div class="col l-3 m-3 c-12">
                                         <span class="statistical__number">452</span>
                                         <h5 class="statistical__title">Tourists</h5>
                                     </div>
-                                    <div class="col l-3">
+                                    <div class="col l-3 m-3 c-12">
                                         <span class="statistical__number">120</span>
                                         <h5 class="statistical__title">Years</h5>
                                     </div>
-                                    <div class="col l-3">
+                                    <div class="col l-3 m-3 c-12">
                                         <span class="statistical__number">283</span>
                                         <h5 class="statistical__title">Cottages</h5>
                                     </div>
-                                    <div class="col l-3">
+                                    <div class="col l-3 m-3 c-12">
                                         <span class="statistical__number">197</span>
                                         <h5 class="statistical__title">Restaurants</h5>
                                     </div>
@@ -746,21 +751,21 @@
                 <div class="sectionFiveth__bot">
                     <div class="grid">
                         <div class="row sectionFiveth__bot-row">
-                            <div class="col l-4 sectionFiveth__bot-col">
+                            <div class="col l-4 m-6 c-12 sectionFiveth__bot-col">
                                 <div class="sectionFiveth__bot-wrap ">
                                     <div class="sectionFiveth__bot-image sectionFiveth__bot-img1">
                                         <span class="sectionFiveth__bot-text">Slovenia</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 sectionFiveth__bot-col">
+                            <div class="col l-4 m-6 c-12 sectionFiveth__bot-col">
                                 <div class="sectionFiveth__bot-wrap ">
                                     <div class="sectionFiveth__bot-image sectionFiveth__bot-img2">
                                         <span  class="sectionFiveth__bot-text">France</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-4 sectionFiveth__bot-col">
+                            <div class="col l-4 m-12 c-12 sectionFiveth__bot-col">
                                 <div class="sectionFiveth__bot-wrap ">
                                     <div class="sectionFiveth__bot-image sectionFiveth__bot-img3">
                                        <span  class="sectionFiveth__bot-text">Switzerland</span>
@@ -777,14 +782,14 @@
                 <div class="footer__top">
                     <div class="grid">
                         <div class="row">
-                            <div class="col l-3 footer__col-first">
+                            <div class="col l-3 m-6 c-12 footer__col-first">
                                 <img src="Image/logo_gold.png" alt="" class="footer__img">
                                 <p class="footer__text">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
                                 <a href=""><span class="footer__contact"><i class="footer__icon far fa-envelope"></i>MinhToan@qode.com</span></a>
                                 <a href="" class=""><span class="footer__contact"><i class="footer__icon fas fa-phone-alt"></i>090 139 57 05</span></a>
                                 <a href="" class=""><span class="footer__contact"><i class="footer__icon fas fa-map-marker-alt"></i>Quận 8 TP Hồ Chí Minh</span></a>
                             </div>
-                            <div class="col l-3 footer__col-second">
+                            <div class="col l-3 m-6 c-12 footer__col-second">
                                 <h5 class="footer__col-heading">Our Recent Posts</h5>
                                 <div class="footer__posts-list">
                                     <div class="footer__posts-item">
@@ -801,7 +806,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col l-3">
+                            <div class="col l-3 m-6 c-12">
                                 <h5 class="footer__col-heading">Subscribe to our Newsletter</h5>
                                 <span href="" class="footer__col-location">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</span>
                                 <div class="footer__form">
@@ -816,7 +821,7 @@
                                     <input type="submit" class="footer__button" value="Subcribe">
                                 </div>
                             </div>
-                            <div class="col l-3">
+                            <div class="col l-3 m-6 c-12">
                                 <h5 class="footer__col-heading">Our Instagram</h5>
                                 <span href="" class="footer__col-location">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</span>
                             </div>

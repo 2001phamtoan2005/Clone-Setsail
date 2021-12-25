@@ -47,6 +47,7 @@ body{
     right: 0;
     padding: 0 16px;
     /* overflow: hidden; */
+    width: 100%;
     z-index:1000;
     visibility: visible;
     transition: all 0.4s ease;
@@ -63,14 +64,18 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color:white;
 }
 
-.nav__logo{
+.nav__mobileSearch{
+    display:none;
 }
-
+.nav__mobilelogo-img,
 .nav__logo-img{
     height:48px;
+}
+
+.nav__mobilelogo-img{
+    display:none;
 }
 
 /* Css ul chung tren header */
@@ -270,9 +275,6 @@ body{
 
 
 /* nav tools */
-.nav__tools{
-    width:106px;
-}
 
 .tools_item:hover .tools_link-cart,
 .tools_item:hover .tools_link-search,
@@ -287,6 +289,7 @@ body{
 .tools_link-menu{
     width:25px;
     cursor: pointer;
+    margin-left: 16px;
 }
 
 .tools_item{
@@ -788,7 +791,8 @@ body{
 .sectionThird__content{
     position: relative;
     margin:auto;
-    width: 1300px;
+    /* width: 1300px; */
+    width: 100%;
     padding: 100px 0 46px;
     text-align: center;
 }
@@ -1022,11 +1026,13 @@ body{
 .climbers__list{
     display:flex;
     width:100%;
+    margin: 0;
 }
 
 .climbers__item{
     position:relative;
     overflow: hidden;
+    padding: 0;
 }
 
 .climbers__item:hover .climbers__info{
@@ -1043,7 +1049,7 @@ body{
 
 .climbers__info{
     position: absolute;
-    bottom:-200px;
+    bottom:-100%;
     background-color: var(--primary-color);
     padding:22px 25px 26px;
     color: white;
@@ -1110,7 +1116,8 @@ body{
 }
 
 .sectionFiveth__bot{
-    width:1300px;
+    /* width:1300px; */
+    width: 100%;
     margin:auto;
     padding:16px 0 170px;
 }
@@ -1123,11 +1130,14 @@ body{
 }
 
 .sectionFiveth__bot-row{
-    margin: 0 -40px;
+    /* margin: 0 -40px; */
+    margin:0;
 }
 
 .sectionFiveth__bot-col{
     padding:0 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .sectionFiveth__bot-text{

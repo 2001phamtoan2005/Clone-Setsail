@@ -1,0 +1,127 @@
+
+/* tablet */
+@media screen and (max-width:1000px){
+
+    #header{
+        width:100vw;
+        background-color:var(--primary-color);
+    }
+    
+    .nav__navigation{
+        display: none;
+    }
+
+    .tools_item.hide{
+        display: none;
+    }
+
+    .nav__mobileSearch{
+        display:block;
+        filter: invert(100%) sepia(6%) saturate(641%) hue-rotate(175deg) brightness(106%) contrast(106%);
+    }
+
+    .tools_link-menu {
+        margin-right: 16px;
+        filter: invert(100%) sepia(6%) saturate(641%) hue-rotate(175deg) brightness(106%) contrast(106%);
+    }
+
+    .tools_item:hover .tools_link-menu{
+        filter:invert(100%) sepia(6%) saturate(641%) hue-rotate(175deg) brightness(106%) contrast(106%);;
+    }
+
+    .nav__logo-img{
+        display: none;
+    }
+
+    .nav__mobilelogo-img{
+        display: block;
+    }
+
+    .slide__heading{
+        font-size: 80px;
+
+    }
+
+    .sectionFiveth__bot-col {
+        padding:0;
+    }
+
+    .sectionFiveth__content,
+    .sectionFirst__content,
+    .sectionThird__content{
+        width: 100%;    
+    }
+
+    .sectionFiveth__bot{
+        width: 100%;    
+
+    }
+
+    .sectionFiveth__bot-row{
+        margin: 0;
+    }
+
+    .climbers__name{
+        margin: 0;
+    }
+
+}
+
+/* moblie */
+@media screen and (max-width:762px) {
+    
+    .slide__heading{
+        font-size: 40px;
+    }
+
+    .slide__text{
+        margin-top: 16px;
+        font-size: 14px;
+    }
+
+    .slideShow__previous,
+    .slideShow__next{ 
+        
+        display: none;
+    }  
+
+    .sectionFiveth__heading,
+    .sectionThird__heading,
+    .sectionFirst__heading{
+        font-size: 35px;
+    }
+    .sectionFirst__video{
+        width: 96%;
+    }
+
+    .topreview__title{
+        width: 80%;
+    }
+
+    .topreview__heading{
+        font-size: 35px;
+    }
+
+    .sectionFiveth__content,
+    .sectionFirst__content,
+    .sectionThird__content{
+        padding: 50px 0 26px;
+    }
+
+    .sectionFiveth__bot-wrap {
+        height: 250px;
+        width:250px;
+    }
+    .sectionFiveth__bot-col {
+        margin-top:12px;
+    }
+
+    .footer__top{
+        padding: 86px 22px 48px;
+    }
+
+    .sidebar{
+        width:100%;
+    }
+}
+
